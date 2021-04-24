@@ -1,0 +1,384 @@
+MGEI+: ONLINE SALES TOOL KIT WITH REQUEST SUBMISSION FOR MEGAWORLD GLOBAL ESTATE, INC.’S PROPERTY CONSULTANTS
+
+
+
+
+
+
+
+
+
+
+Undergraduate Thesis
+Submitted to the faculty of the
+Department of Industrial and Information Technology
+Cavite State University – Carmona Campus
+Carmona, Cavite
+
+
+
+
+
+
+
+
+
+
+In partial fulfillment
+of the requirements for the degree
+Bachelor of Science in Information Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+JOLINA C. CANTONJOS
+LEONARD CHIPPER T. MANTABOTE
+January 2021
+MGEI+: Online Sales Tool Kit With Request Submission For Megaworld Global Estate, Inc.’s Property Consultants
+
+
+
+Jolina C. Cantonjos
+Leonard Chipper T. Mantabote
+
+
+
+An undergraduate proposal submitted to the faculty of the Department of Industrial and Information Technology, Cavite State University – Carmona Campus, Carmona, Cavite in partial fulfillment of the requirements for the degree of Bachelor of Science in Information Technology with Contribution No.________. Prepared under the supervision of Mr. Daryl Lyndon Supan
+
+
+
+INTRODUCTION
+
+
+
+      The Megaworld Corporation is looking to adopt e-commerce to help the company cope up with the COVID-19 pandemic, considering that the real estate and mall industries are listed as non-essential businesses. E-commerce will play a major role as the company moves forward to adapt to this pandemic, and this will usher a new era of e-commerce activities. Megaworld’s “new reality” program plans to include innovations in its businesses to help the company cope up with the changes brought by the COVID-19 crisis, said (Coates, 2020).
+      Megaworld Global Estate, Inc. aims to develop investment-worthy real estate projects, provide excellent customer service, and build a dynamic workplace that values dedication, integrity, and teamwork. Their vision is to emerge as a brand of choice for quality real estate investments and a top-of-mind company that offers a rewarding and vibrant working experience (Megaworld Global Estate, Inc., 2020).
+      Megaworld Global Estate, Inc.’s submission of request forms is still done manually. The Property Consultants fill up printed request forms and then submit them to their respective signatories. While this is a foolproof way of submitting a request, it is still creating a disadvantage on the side of the Property Consultants of the company in terms of the process being time-consuming. With the situation that we are in as of today, the Property Consultants are at risk of being infected with COVID-19 whenever they meet their clients who may be asymptomatic. And they pose an immediate threat to the safety of those people around them, especially in the office and their homes.
+      Based on the client's needs and the new normal that we need to conform with, the researchers came up with a solution of developing an Online Sales Toolkit with Requests Forms Submission. The developed system aims to allow the Property Consultants of Megaworld Global Estates, Inc. to virtually submit requests forms to lessen the need of going back to the office just to manually fill up forms and put everyone around them at risk.
+Objectives of the Study
+      The main objective of this study specifically aims to perform the following modules:
+1. Allow the submission of Project Viewing Request Form
+a. To submit the request by E-mail
+b. Record log file of the submitted request to the database 
+2. Allow the submission of Vehicle Request Form
+a. To submit the request by E-mail
+b. Record log file of the submitted request to the database 
+3. Allow the submission of Commission Request Form
+a. To submit the request by e-mail as a PDF file attachment
+b. Record log file of the submitted request to the database 
+4. Allow the submission of Client Documents/Requirements for Closed Sale
+a. To submit the required documents of closed sale by E-mail as file attachments
+b. Record log file of the document submission to the database 
+5. Allow Submission of Online Selling Activity Reports
+a. To submit the property consultant’s activity report
+b. Record log file of the submitted report to the database 
+6. Display the company website for audiovisual presentation
+a. To load the company website through the WebView
+b. To be used for prospect client presentation
+Significance of the Study
+      This study will help the property consultants of Megaworld Global-Estate, Inc. with their day-to-day operation by opting to use virtual transactions which will benefit the following:
+Megaworld Global-Estate, Inc.
+      MGEI is the topmost beneficiary of the system. It will give them a platform that would help them to continue selling properties and continue to provide jobs for their employees especially during this time of the pandemic. It would lessen the time it takes just to submit requests for an activity required for selling. This would also become one of their stepping stones towards e-commerce, and create a high profile feel within the company and their employees, and impress clients by having their mobile application.
+Property Consultants 
+      The Property Consultants of MGEI are the main beneficiaries of the system. It would also help boost their sales because they can now focus on continuous selling offsite, without the hassle of going back to the office just to fill up requests’ forms. And it would help reduce the risks of exposing those working inside the office to COVID-19.
+Administrative Employees
+      The system would also be helpful to the Administrative employees of the company. They can now process requests in a more organized way. And respond to those requests as quickly as possible.
+Future Researchers
+      This study would also benefit future researchers who would also conduct related studies and they can use this as one of their references. 
+Time and Place of the Study
+      The study will be conducted at Megaworld Global Estate, Inc. located at Sports Club, Manila Southwoods Golf and Country Club, Congressional Road, Carmona, Cavite from March 2020, and is expected to be finished in June 2021.
+Scope and Limitation
+	The property consultants are the main users of the mobile application. They will have access to all the described modules of the mobile application. The submitted requests will be recorded to the cloud-hosted database and will serve as log files to monitor the request transactions.  The only way to log-in inside the app is by having a valid Google Workspace email account (formerly known as GSuite) that is issued by the company. Regular Gmail accounts cannot access the mobile application.
+	The mobile application is classified as an In-house App which the researchers designed to be used internally by Megaworld Global-Estate, Inc. The installation of the app can only be issued by the head of the Creative team. The mobile application can be also be used as an audiovisual presentation for their prospective buyers while highlighting the company website. However, the developed system cannot handle online transactions such as payments and issuing receipts. The mobile application is strictly for the use of MGEI employees only.
+	  
+
+
+Definition of Terms
+Operational Terms 
+      Telemarketing - the marketing of goods or services utilizing telephone calls, typically unsolicited, to potential customers.
+      E-commerce - commercial transactions conducted electronically on the Internet.
+Technical Terms
+      Cross-platform mobile development - refers to the development of mobile apps that can be used on multiple mobile platforms such as Android, iOS, and Windows phones with a single shared code.
+      XAML - stands for "Extensible Application Markup Language" and is pronounced "zam-uhl." XAML is a markup language developed by Microsoft and is used for creating application interfaces. It is similar to HTML, which defines the content of a webpage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REVIEW OF RELATED LITERATURE
+
+
+
+Traditional Way of Selling Real Estate Properties
+      The real estate business is a client dependent industry. A normal day for property consultants means spending time meeting clients or attending to client appointments (Militana, 2019). They usually spent six to seven days per week manning booths, handing out flyers to possible clients, or entertaining clients in different locations.
+      Property consultants work for licensed and designated brokers and typically operate offsite with other property consultants as well. They are always on the lookout for new property listings or attending site tours of new realty projects so they can narrow down the search for clients since they have seen the location and property itself (Folger, 2020).
+       Before the internet and social media, common real estate service activities are conducted by manning on-site, handing out flyers, client trippings, and telemarketing. However, the thriving property sector in the Philippines is highlighted by the proliferation of high-rise developments, which attracted Filipinos to pursue real estate service as a profession. (Bernardino, 2016).
+      Property consultants are always on the go, meeting new clients, viewing properties, and signing contracts. Time is of the essence for them, it could either be a closed sale or losing a valuable client. That is why several mobile applications were created for the realtor's time and offer a more organized way to manage tasks (Anna, 2018).
+      One of the several downsides when working as a property consultant is working during weekends sometimes. Depending on the company, property consultants may be assigned to different locations, which according to their data has increased foot traffic (Cancio, 2015).  
+Role of E-commerce in the Real Estate Industry 
+	While younger buyers accept online shopping, the majority of the buyers still prefer going to malls to personally view, or physically touch the item they want to buy. The same is true for the real estate business, clients want to personally visit the location of the property or see actual models of a property which is crucial to their decision making (DigProp, 2019).
+	As businesses deal with the realities of COVID-19, the real estate business is one of those industries turning towards e-commerce to turn things around and continue selling properties. The first factor would be e-commerce itself, as the shift to e-commerce creates a need for another property type called urban warehouses. Second is the cultural shift to experiential purchases that will certainly remain intact once we’re all able to go back to “normal” public activity (Sebastian, 2020).
+	To bring back trust in the real estate industry, the housing ministry launched an e-commerce platform to help facilitate clients in identifying genuine properties. The platform is for projects that received occupancy certificates. This will create a positive sentiment for the real estate industry, boosting faith and confidence among clients (Haidar, 2020).
+	Industrial real estate evolved alongside e-commerce. Over the past decade, the way we shop or purchase has changed. It increased delivery speeds and near-immediate access to supplies. And the demand for warehouse space especially those close to major highways is steadily increasing (Williams, 2019).
+	There is a change in consumer behavior when it comes to online real estate. It has brought a sudden increase in investor sentiment. Clients are no longer merely interested in searching for housing and commercial properties, they are now also buying properties online (Pani, 2017).
+In-House Mobile App Solution
+	In this modern era, big companies have already adopted technologies that they can use to enhance productivity. These are called enterprise apps or in-house apps. They are designed specifically for the company’s private use to help them with their daily operations.
+	The difference with the usual apps we download and install from app stores is that it won’t be available to everyone publicly, these enterprise or in-house apps are limited only for private distribution (Nanni 2020).
+	There are pros and cons to choosing in-house mobile app development. The benefits are better access and insight for the in-house development team because they are also working inside the same office space, effectively communicating closely with the owner or superiors to check if everything is on track. While the downside is that it may involve high costs and additional employees, and it can be difficult to find relevant work for the development team once the project is done (Bakshi 2018). This is where the different solutions companies or freelance developers come in, they can help eliminate the downsides described.
+	Companies tend to look for purchasing third-party applications or software to cater to their operational needs. There are also drawbacks to this like higher-than-expected development cost, high maintenance cost, and lack of customizable options (Biewener 2020).
+	There are things to consider in choosing between in-house app development and outsourcing app development. For a big company, they can choose to outsource a development team or start to build a development team of their own, as for a small to medium company outsourcing a development team would be the right choice (Voitenko 2019).
+	Evident in this time of the pandemic, the world economy relied heavily on the computer or mobile hardware and software innovation particularly mobile applications. With new mobile applications published every day, the mobile app development industry is crucial and influential for its growth (Dogtiev 2020).	
+
+
+Synthesis
+	 Technology plays a greater role now because of the pandemic that affects businesses around the globe. Business models and processes are evolving to cope up with the changes that COVID-19 has brought. The real estate industry is leaning towards creating a digital marketplace.
+	The same is true with what (Accion, 2020) stated in their article, that integrating and following the latest trends in technology makes everyone's job easier and shows clients that the business is growing.
+	Businesses or industries that are non-essential, such as the real estate industry, companies in this environment must invest huge amounts of money for adapting technology that would benefit them, related to an article by (Baldwin, 2019). And to stay in the real estate business especially in this time of the pandemic, they should start using systems like the one that we researchers are proposing to our client.
+	Our proposed system would be developed following the latest trend in mobile application development. The trend is to use a single shared code base for building cross-platform applications, the same concept as (Williamson, 2020), specifically the Xamarin Forms app development framework.
+	One example of the mobile application developed in Xamarin Forms is the PerfectReal app (TLS Software, 2019). It is created for real estate agencies to help manage their property listings. Although the functions are different from what we are developing, it will be built with the same development environment using the C# programming language for code behind and XAML for the user interface.
+	Another similar and popular mobile application is Insightly, also developed using Xamarin. With over a hundred thousand downloads, Insightly is enabling companies to provide better service and keep the sales team up to date with valuable information to help close sales (Kakar, 2017).
+	One important functionality to have for a real estate business is to be able to submit necessary documents after closing sales. Similar to Dropbox, one of the best tools in managing multiple files uploaded in the cloud-based database and also capable of sending large files (Ana, 2018).
+	The proposed system will use the Firebase Realtime Database. It is a NoSQL cloud-hosted database, where data is stored as a JSON file.
+	
+	
+
+
+
+
+
+METHODOLOGY
+
+
+
+Materials
+	The Online Sales Toolkit with Request Submission will be developed using a Ryzen 3 desktop computer with 8GB Random Access Memory and 500GB Read-Only Memory, Microsoft Visual Studio 2019 for the integrated development environment, C# for the programming language, Xamarin.Forms for the cross-platform framework, and Google Firebase Realtime Database for cloud-hosted NoSQL (Not Only Structured Query Language) database.
+Method
+	The Software Development Life Cycle (SDLC) model that will be used is the Rapid Application Development (RAD) model as described in a blog post by Violetta Kornilova (Fig. 1). It is a type of software development that uses methods in creating prototypes for introducing the product.
+	This method allows the client to test a functional prototype as early as possible, seeing a demo of the product much faster. During the development of the prototype, it is essential to create one that can be reused to save time and resources (Kornilova, 2020).
+	
+
+
+
+
+
+Figure 1. Rapid Application Development (RAD) Model (Kornilova, 2020)
+
+	Requirements Planning. The first phase is where an interview will be conducted (Appendix 1) to gather information about the client’s current manual process such as submission of different request forms and submission of documents, as well as the problems that occur with the daily transactions and current process. The Input-Process-Output (IPO) Diagram will be created to help understand the client’s current manual process (Fig. 2). The IPO Diagram shows how the request forms are being processed currently.
+
+
+
+
+
+Figure 2. Input-Process-Output of the current manual process of MGEI
+	This process includes the receiving of the printed request forms and closed-sale documents for record-keeping. With the current process, face-to-face interaction is required thus increasing the risk of infection.
+	An Input-Process-Output diagram of the proposed system is provided to show the new flow of the processing of requests (Fig. 3).
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 3. Raw IPO Diagram of the proposed mobile application for MGEI
+
+
+	User Design. A use case diagram (Fig. 4) is created after the requirements planning phase. Its purpose is to show how will be the interaction of the user to the system. This provides an initial view of the different functions of the system. The system prototype that will be initially developed currently has a singular user, mainly the Property Consultants. They can now send a request on a centralized platform, eliminating the need to switch from text or email messaging. The Point Persons are on the receiving end, and we opted to separate the platform that they should use for accessing the data from the mobile application. For this research, we are only developing the platform for Property Consultants. The Property Consultants can only access the mobile application with the use of their company-provided email accounts specifically the Google Workspace account (formerly known as GSuite). 
+
+
+
+
+
+
+
+
+Figure 4. The Use-Case diagram of the proposed system
+
+
+	The sent request by email are automatically encrypted and this is a security feature already provided by the native email client. The system prototype is designed to function on its own as of the moment. The email messages will be sent directly to the corresponding Point Persons. Since this is the first iteration of the system prototype, the design and functionality can be changed and improved upon the request of the client.
+	Development. This the stage of the RAD model where the proposed system prototype will be built. Microsoft Visual Studio 2019 with an installed package of Xamarin Development based on C# will be used for system coding.
+	Every stated module will be tested by the client so they can suggest changes and determine if the prototype meets the requirements. Unit testing, system testing, and acceptance testing will be used to test the overall system functionality.
+		Unit Testing. In this testing, the developers will check each module to detect potential errors that may arise and will be debugged as soon as possible. The mobile application will be installed and evaluated in different local android devices with the target OS of Android 5 up to Android 10 to see if it performs according to its intended functionality and design.
+		The developers will test the described modules above such as the log-in, webview of the client website, submission of project viewing request, submission of vehicle request, submission of commission request, submission of online activity reports, and the submission of closed-sale client documents to see the parts where possible errors or failing results can occur during testing.
+		System testing. This type of test is where the developed system prototype will be tried utilizing a questionnaire adopted from the International Organization for Standardization (ISO) 25010. The criteria are: functionality, performance efficiency, compatibility, usability, reliability, security, maintainability, and portability will be tested.
+		The functionality criterion determines if the developed system meets the stated and implied features when used under specified conditions. This criterion is composed of 3 sub-characteristics: completeness, correctness, and appropriateness.
+		Next is the performance efficiency criterion, this determines if the developed system can perform its intended functions under stated conditions. This criterion is also composed of 3 sub-characteristics: time behavior, resource utilization, and capacity.
+		The third is the compatibility criterion, this determines if the developed system can still be operated and installed in different devices and operating systems. This criterion has 2 sub-characteristics: co-existence and interoperability.
+		Fourth is the usability criterion, this determines if the developed system can still be used by the specified users with ease, and appropriate to their needs. This criterion has 6 sub-characteristics: appropriateness recognizability, learnability, operability, user error protection, user interface aesthetics, and accessibility.
+		The fifth is the reliability criterion, this determines if the developed system can be used under specified conditions for a specified period. This criterion has 4 sub-characteristics: maturity, availability, fault tolerance, and recoverability.
+		The sixth is the security criterion, this determines if the developed system protects information and data, and maintains its confidentiality and authenticity. This also ensures that the users of the developed system will only be accessed by those within the organization. This criterion has 5 sub-characteristics: confidentiality, integrity, non-repudiation, accountability, and authenticity.
+		The seventh is the maintainability criterion, this determines that the developed system can be easily modified for improvement and adapt to possible changes. This criterion also has 5 sub-characteristics: modularity, reusability, analyzability, modifiability, and testability.
+		The last is the portability criterion, this determines that the developed system can be changed to operate on different platforms. This criterion has 3 sub-characteristics: adaptability, installation, and replaceability.
+	Product Launch. After the phases above have been satisfied and received a passing remark from Megaworld Global Estates Inc., the developed system will be turned over to the head of the Events and Administrator of Marketing Department together with the user manual. It will be installed in their local Android mobile devices, and this will also be considered the trial phase for the active Sales Team.
+	
+
+References:
+Folger, J. (2020). A Day in the Life of a Real Estate Agent. Retrieved from https://www.investopedia.com/articles/professionals/062713/day-life-real-estate-agent.asp
+Militana, T. (2019). What Is a Typical Day in the Life of a Real Estate Agent? Retrieved from https://realtyna.com/blog/what-is-a-typical-day-life-real-estate-agent/
+Bernardino, Ma. M. (2016). RA 9646: Resa and the Filipino real estate agent. Retrieved from https://business.inquirer.net/220656/ra-9646-resa-filipino-real-estate-agent
+Cancio, S. (2015). The Pros and Cons of Working in Real Estate. Retrieved from https://www.kalibrr.com/advice/2015/04/pros-and-cons-working-in-real-estate
+Anna (2018). Best Mobile Apps for Real Estate Agents in 2020. Retrieved from https://wpestate.org/best-mobile-apps-for-real-estate-agents-in-2018/
+ DigProp (2019) The Impact of E-commerce on Real Estate. Retrieved from https://www.digprop.com/impact-of-ecommerce-on-real-estate/
+Graham M. Coates (2020). Megaworld Lifestyle Malls to Adopt E-Commerce. Retrieved from https://www.bworldonline.com/megaworld-lifestyle-malls-to-adopt-e-commerce/
+Mike Sebastian (2020). COVID-19 Is Accelerating the Effects of E-Commerce in Retail Real Estate. Retrieved from https://www.propmodo.com/covid-19-is-accelerating-the-effects-of-e-commerce-in-retail-real-estate/
+Faizan Haidar (2020). Housing Ministry Launches E-Commerce Platform For Real Estate Sector. Retrieved from https://economictimes.indiatimes.com/news/economy/policy/housing-ministry-launched-e-commerce-platform-for-real-estate-sector/articleshow/73243832.cms?from=mdr
+Taylor Williams (2019). How E-Commerce Has Impacted Industrial Real Estate. Retrieved from https://rebusinessonline.com/how-e-commerce-has-impacted-industrial-real-estate/
+Priyanka Pani (2017). Real estate + e-commerce = winning formula. Retrieved from https://www.thehindubusinessline.com/info-tech/Real-estate-e-commerce-winning-formula/article20922552.ece
+Nicholas Mercer (2020). Technology helping Newfoundland real estate during pandemic. Retrieved from https://www.thetelegram.com/news/provincial/technology-helping-newfoundland-real-estate-during-pandemic-447840/
+Accion (2020). Adapting to The Latest Technology Trends for Your Business. Retrieved from https://us.accion.org/resource/adapting-latest-technology-trends-your-business/
+Andy Baldwin (2019). If you don’t use technology to innovate, will you become obsolete? Retrieved from https://www.ey.com/en_gl/digital/if-you-don-t-use-technology-to-innovate-will-you-become-obsolete
+Eric Rosenberg (2020). The 8 Best Real Estate Apps of 2020. Retrieved from https://www.thebalance.com/best-real-estate-apps-4163003
+Ryan Williamson (2020). How Mobile Apps Are Driving the Future of Real Estate. Retrieved from https://channels.theinnovationenterprise.com/articles/how-mobile-apps-are-driving-the-future-of-real-estate-hmaadtfore
+TLS Software (2019). PerfectReal RealEstate Management Application - Cross platform with .NET MVC Admin. Retrieved from https://paper.dropbox.com/doc/PerfectReal-RealEstate-Management-Application-Cross-platform-with-.NET-MVC-Admin-LUneddN8JAwCLo2yEye30
+Kartik Kakar (2017). 10 Popular Mobile Apps that are Built using Xamarin. Retrieved from https://insights.daffodilsw.com/blog/10-popular-mobile-apps-that-are-built-using-xamarin
+Brodie O’Carroll (2020). What is Rapid Application Development (RAD)?. Retrieved from https://codebots.com/app-development/what-is-rapid-application-development-rad
+Violetta Kornilova (2020). UNDERSTANDING THE RAPID APPLICATION DEVELOPMENT MODEL. Retrieved from https://theappsolutions.com/blog/development/rad-model/
+Chiara Nanni (2020). ENTERPRISE APPS: THE IN-HOUSE MOBILE SOLUTION. Retrieved from http://blog.apps-builder.com/enterprise-apps-the-in-house-mobile-solution/
+Gaurav Bakshi (2018). In-house vs Outsourcing Mobile App Development: Pros and Cons. Retrieved from https://www.netsolutions.com/insights/mobile-app-development-in-house-or-outsource-answering-the-dilemma/
+Dan Biewener (2020). 5 Reasons Why You Need to Get Moving on In-house Mobile App Development. Retrieved from https://www.simplilearn.com/reasons-why-you-need-in-house-mobile-app-development-article
+Igor Voitenko (2019). In-House vs Outsourcing Mobile App Development. Retrieved from https://coidea.agency/blog/index.php/2019/12/08/in-house-vs-outsourcing-mobile-app-development-2/
+Artyom Dogtiev (2020). App Development Trends 2020. Retrieved from https://www.businessofapps.com/app-developers/research/app-development-trends/#:~:text=In%20terms%20of%20what%20other,just%20to%20name%20a%20few.%E2%80%9D
+
+
+
+
+
+
+APPENDICES
+
+
+
+Appendix 1
+
+Interview Sheet
+
+
+
+Name of Client:								Date:
+Address:
+Interviewee:
+
+
+1. What are the types of transactions that are being requested daily by a property consultant?
+
+A Property Consultant regularly requests the following items from the back-office support team of the Sales and Marketing Department:
+a. Marketing Materials / Collaterals - These are the materials being used by the Property Consultants to promote the property they are selling and to provide a visual representation to the clients during their project presentations. These include everything from print materials like posters, flyers, brochures to digital content like online advertisements, project websites, and social media postings.
+b. Access to the Actual Project Site (Project Viewing Form) - Once the clients already have an interest in the project/property, Property Consultants invite the clients to see the actual project site so they could fully discuss the features of the project.
+c. Vehicle Request for Project Site Viewing - The company provides a vehicle for its Property Consultants that they can request to be used for their site tripping.
+d. Assistance on Sales Documentation - This refers to the submission of documents required by the company to officialize or to process the acquisition of the property. For the Property Consultants to close and book the sale, the following documents must be submitted to the office:
+1. -Request for Reservation and Offer to Purchase (This is the form in which the specific property to be purchased is indicated and its corresponding payment terms and agreement. To fill this up, the Property Consultants refer to the Project Availability Map and Price Computation Sheet that is being updated regularly.)
+2. -Buyers Information Sheet
+3. -Specimen Signature Form
+4. -2 Valid ID's
+5. -Reservation Fee
+e. Commission Request - For every sale of a property, a Property Consultant requests for and gets a commission to compensate for their efforts in closing a sale and meeting their sales quota.
+f. After-Sales Clients Inquiries - After the sale, Property Consultants still assist their clients/buyers concerning the after-sales inquiries, such as payment deadlines, the status of the project construction, turnover date, property titles, construction guidelines, and the likes. The Property Consultants seek help and request details from the Customer Service Section to provide accurate feedback to their clients' inquiries.
+
+2. How are the requests being processed?  Describe the flow of the daily transactions of a property consultant.
+
+      Access to the Actual Project Site - Property Consultants must fill-up the Project Viewing Form and submit it to the Admin and Marketing Department. The signed/approved form by the Admin and Marketing Department must be presented to the guards in the project sites so they will be permitted to enter. The forms may be submitted in-person, thru e-mail, or via online chat and messaging applications.
+      Vehicle Request for Project Site Viewing - Property Consultants must fill-up the Van Request Form and submit it to the Admin and Marketing Department for scheduling.  The request may be submitted in-person, thru e-mail, or via online chat and messaging applications.
+      Assistance on Sales Documentation - The Sales and Customer Relations Office are the ones handling all the documentation of the booking and closing of sales.  Sales and Customer Relations Office sends out updated Project Availability Map and Payment Terms and Schemes to the Property Consultants whenever there are changes. On the other hand, Property Consultants submit the required documents to book the sale to the Sales and Customer Relations Office. It is the Sales and Customer Relations Office's responsibility to check all the submitted documents and transmit them to the Head Office to officialize the closing and booking of sales. Without this process, the specific property will not be reserved for any interested buyer, and the property is deemed open for selling by other Property Consultant.  
+      An advance copy of the documents may be submitted via email, but the original copy must still be submitted to the Sales and Customer Relations Office.
+      Commission Request - A Commission Request Form must be submitted to Commission and Incentive Processing Section.  It is the Commission and Incentive Processing Section's responsibility to check the request, have it approved by the Department Head (Vice President for Sales and Marketing), and transmit it to Head Office for the processing of the commission.
+      An advance copy of the form may be submitted via email, but the original copy must still be submitted to Commission and Incentive Processing Section.
+       After-Sales Clients Inquiries   - These are being coordinated and addressed by the Customer Relations Section. Requests/Inquiries may be discussed in person, thru the phone call, or maybe sent via email.
+
+3. Are there any errors or problems encountered when processing requests daily?
+
+Each Section experience different errors and problems regarding their respective functions. Below are some of the examples:
+Marketing Materials / Collaterals
+       - Rush marketing initiatives that the Property Consultants would like to request
+      - Property Consultants often use outdated Marketing Collaterals for presentation
+       - Some Marketing Collaterals are not being used or maximized by the Property Consultants
+Access to the Actual Project Site and Vehicle Request for Project Site Viewing 
+      - Rush requests, Clients, and Agents are already on-site upon informing Admin and Marketing Section
+      - Conflict on the vehicle schedule
+      - Incomplete details indicated in the forms
+  Assistance on Sales Documentation
+ -   Property Consultants often use outdated Availability Map and Price Computation and Scheme
+   	-   Late submission of required documents
+  Commission Request - Incomplete and inaccurate details indicated in Commission Request Form
+            - Late submission of forms and missing forms upon transmittal
+  After-Sales Clients Inquiries
+       - Unattended concerns due to incomplete details from the Property Consultants and due to unlocated requests
+
+4. What are the problems with the current way of handling and processing the requests?
+
+Some of the problems common to each section are:
+      - Rush / Unanticipated Requests
+- Miscommunication and Over-looked updates due to the various platforms being used in sending requests and in cascading information
+- Delay in the handling of requests due to incomplete details and unlocated requests and documents
+- Property Consultants are confused as to whom they will address their concerns and requests
+
+5. What are the disadvantages of the current transaction process?
+
+      Using different and various platforms in cascading information and submitting requests are good because the Property Consultants and Back-Office Staff have a lot of options to choose from and may opt for the medium that they are comfortable using. However, it is also a disadvantage because it is unorganized, and it is complex and difficult to monitor all the information being sent out and all the requests being submitted having all the platforms, unlike if all these are in one centralized system. This results in miscommunication and delay.
+
+6. How many Sales Teams or Departments are currently active?
+
+      We have a total of Three (3) Sales Teams, with a total of Thirty-Six (36) Property Consultants.
+7. How do the teams or departments interact with each other?
+
+      Our Sales Personnel and Marketing Staff use all forms of communication such as face-to-face transactions, telephone conversations (thru calls and messages), and through online platforms like emails, and online meeting and messaging applications.
+      
+8. How do they submit the documents of a closed sale?
+
+      To close and book a sale, the Sales Personnel has to go to the Marketing Office to submit their clients' documents.
+
+9. How many offices does the Megaworld Corporation have?
+
+      Megaworld Corporation has site/marketing offices all over the Philippines. Its Head Office is located in Alliance Global Tower, Bonifacio Global City, Taguig. For our Sales and Marketing Department, Megaworld Global-Estate, Inc., we have a total of four (4) Showrooms and Sales and Marketing offices. These are located in Southwoods Carmona, Cavite, Alabang Daang-Hari, Las Piñas City, and Mckinley West Bonifacio Global City, Taguig.
+
+10. How often are the requests and submission of documents?
+
+      Receiving requests and documents from the Sales Personnel is part of the daily activities of the Sales and Marketing Staff, may it be on weekdays, weekends, holidays, or after office hours. Given that Real Estate is a fast-paced industry, requests, queries, and concerns of the Sales Personnel must be attended to immediately for them to close a sale.
+
+
+
+Prepared by:
+
+
+Leonard Chipper T. Mantabote
+Jolina C. Cantonjos
+
+Appendix 2
+
+Evaluation for Unit Testing
+
+
+
+
+
+1
+
+
